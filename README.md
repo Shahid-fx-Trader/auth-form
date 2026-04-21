@@ -71,51 +71,6 @@ auth-form/<b>
 ├── vite.config.js<b>
 └── README.md<b>
 
----
-
-## ⚙️ How It Works<b>
-
-User visits app<b>
-│<b>
-▼<b>
-[ Login Tab ]  ←──────────────────────┐<b>
-│                                  │<b>
-Enter Email                            │<b>
-Enter Password                         │<b>
-│                                  │<b>
-✅ Valid? ──► Login Success            │<b>
-❌ Invalid? ──► Show Error             │<b>
-│<b>
-"Not a member? SignUp" ──────────────► │<b>
-│<b>
-[ SignUp Tab ]                         │<b>
-│                                  │<b>
-Enter Email                            │<b>
-Enter Password                         │<b>
-Confirm Password                       │<b>
-│                                  │<b>
-✅ Valid? ──► Account Created ─────────┘<b>
-Auto redirect (1.8s)<b>
-❌ Invalid? ──► Show Error<b>
----
-<b>
-## 🧠 Component State Overview<b>
-
-| State | Type | Purpose |<b>
-|---|---|---|<b>
-| `activeTab` | String | Tracks current tab (login/signup) |<b>
-| `users` | Object | In-memory user database |<b>
-| `loginEmail` | String | Login email input value |<b>
-| `loginPass` | String | Login password input value |<b>
-| `loginErrors` | Object | Login field error messages |<b>
-| `loginSuccess` | Boolean | Login success flag |<b>
-| `signupEmail` | String | Signup email input value |<b>
-| `signupPass` | String | Signup password input value |<b>
-| `signupConfirm` | String | Confirm password input value |<b>
-| `signupErrors` | Object | Signup field error messages |<b>
-| `signupSuccess` | Boolean | Signup success flag |<b>
-
----
 
 ## ⚠️ Important Note
 <b>
