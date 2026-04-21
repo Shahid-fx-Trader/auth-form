@@ -56,21 +56,6 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
-## 📁 Project Structure
-auth-form/<b>
-├── public/<b>
-│   └── preview.png<b>
-├── src/<b>
-│   ├── components/<b>
-│   │   └── AuthForm.jsx      # Main auth component<b>
-│   ├── App.jsx               # Root component<b>
-│   ├── main.jsx              # Entry point<b>
-│   └── index.css             # Tailwind imports<b>
-├── index.html<b>
-├── tailwind.config.js<b>
-├── vite.config.js<b>
-└── README.md<b>
-
 
 ## ⚠️ Important Note
 <b>
