@@ -57,81 +57,81 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) in your browser.
 ## 📁 Project Structure
-auth-form/
-├── public/
-│   └── preview.png
-├── src/
-│   ├── components/
-│   │   └── AuthForm.jsx      # Main auth component
-│   ├── App.jsx               # Root component
-│   ├── main.jsx              # Entry point
-│   └── index.css             # Tailwind imports
-├── index.html
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
+auth-form/<b>
+├── public/<b>
+│   └── preview.png<b>
+├── src/<b>
+│   ├── components/<b>
+│   │   └── AuthForm.jsx      # Main auth component<b>
+│   ├── App.jsx               # Root component<b>
+│   ├── main.jsx              # Entry point<b>
+│   └── index.css             # Tailwind imports<b>
+├── index.html<b>
+├── tailwind.config.js<b>
+├── vite.config.js<b>
+└── README.md<b>
 
 ---
 
-## ⚙️ How It Works
+## ⚙️ How It Works<b>
 
-User visits app
-│
-▼
-[ Login Tab ]  ←──────────────────────┐
-│                                  │
-Enter Email                            │
-Enter Password                         │
-│                                  │
-✅ Valid? ──► Login Success            │
-❌ Invalid? ──► Show Error             │
-│
-"Not a member? SignUp" ──────────────► │
-│
-[ SignUp Tab ]                         │
-│                                  │
-Enter Email                            │
-Enter Password                         │
-Confirm Password                       │
-│                                  │
-✅ Valid? ──► Account Created ─────────┘
-Auto redirect (1.8s)
-❌ Invalid? ──► Show Error
+User visits app<b>
+│<b>
+▼<b>
+[ Login Tab ]  ←──────────────────────┐<b>
+│                                  │<b>
+Enter Email                            │<b>
+Enter Password                         │<b>
+│                                  │<b>
+✅ Valid? ──► Login Success            │<b>
+❌ Invalid? ──► Show Error             │<b>
+│<b>
+"Not a member? SignUp" ──────────────► │<b>
+│<b>
+[ SignUp Tab ]                         │<b>
+│                                  │<b>
+Enter Email                            │<b>
+Enter Password                         │<b>
+Confirm Password                       │<b>
+│                                  │<b>
+✅ Valid? ──► Account Created ─────────┘<b>
+Auto redirect (1.8s)<b>
+❌ Invalid? ──► Show Error<b>
 ---
+<b>
+## 🧠 Component State Overview<b>
 
-## 🧠 Component State Overview
-
-| State | Type | Purpose |
-|---|---|---|
-| `activeTab` | String | Tracks current tab (login/signup) |
-| `users` | Object | In-memory user database |
-| `loginEmail` | String | Login email input value |
-| `loginPass` | String | Login password input value |
-| `loginErrors` | Object | Login field error messages |
-| `loginSuccess` | Boolean | Login success flag |
-| `signupEmail` | String | Signup email input value |
-| `signupPass` | String | Signup password input value |
-| `signupConfirm` | String | Confirm password input value |
-| `signupErrors` | Object | Signup field error messages |
-| `signupSuccess` | Boolean | Signup success flag |
+| State | Type | Purpose |<b>
+|---|---|---|<b>
+| `activeTab` | String | Tracks current tab (login/signup) |<b>
+| `users` | Object | In-memory user database |<b>
+| `loginEmail` | String | Login email input value |<b>
+| `loginPass` | String | Login password input value |<b>
+| `loginErrors` | Object | Login field error messages |<b>
+| `loginSuccess` | Boolean | Login success flag |<b>
+| `signupEmail` | String | Signup email input value |<b>
+| `signupPass` | String | Signup password input value |<b>
+| `signupConfirm` | String | Confirm password input value |<b>
+| `signupErrors` | Object | Signup field error messages |<b>
+| `signupSuccess` | Boolean | Signup success flag |<b>
 
 ---
 
 ## ⚠️ Important Note
-
-> User data is stored **in-memory only**.  
-> Data will reset on page refresh.  
-> For production use, integrate a backend (Node.js, Firebase, Supabase, etc.) or `localStorage`.
+<b>
+> User data is stored **in-memory only**.  <b>
+> Data will reset on page refresh.  <b>
+> For production use, integrate a backend (Node.js, Firebase, Supabase, etc.) or `localStorage`.<b>
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 Future Improvements<b>
 
-- [ ] Connect to a real backend / database
-- [ ] Add JWT authentication
-- [ ] Add "Forgot Password" flow
-- [ ] Add Google / GitHub OAuth
-- [ ] Add dark mode support
+- [ ] Connect to a real backend / database<b>
+- [ ] Add JWT authentication<b>
+- [ ] Add "Forgot Password" flow<b>
+- [ ] Add Google / GitHub OAuth<b>
+- [ ] Add dark mode support<b>
 - [ ] Add loading spinner on submit
 
 ---
