@@ -7,7 +7,7 @@ Clean design with Login & SignUp flow, form validation, and in-memory user manag
 
 ## 📸 Preview
 
-(.<img width="1600" height="769" alt="image" src="https://github.com/user-attachments/assets/66b7ddc8-3a14-4711-8cf6-2aac8c3aed8b" />)
+<img width="1600" height="769" alt="image" src="https://github.com/user-attachments/assets/66b7ddc8-3a14-4711-8cf6-2aac8c3aed8b" />
 
 ---
 
